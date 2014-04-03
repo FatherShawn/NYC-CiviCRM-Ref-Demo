@@ -1,0 +1,18 @@
+<?php
+/**
+ * @file nyc_picture_demo.module
+ * 
+ * @author Shawn P. Duncan <shawn@c3design.org>
+ * @date   4/3/14,  11:33 AM
+ *
+ * @brief 
+ */
+
+/* Implementation of hook_views_api code in nyc_ref_demo.views.inc
+ * will now be auto loaded
+ * */
+function nyc_picture_demo_views_api() {
+  return array(
+    'api' => '3.0'
+  );
+}
